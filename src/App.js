@@ -6,7 +6,7 @@ import Radium, {StyleRoot} from 'radium';
 import './App.css'
 import { Link, animateScroll as scroll } from "react-scroll";
 import pika from '../src/images/pikapika.gif'
-import flavicon from '/Users/abhiktiwari/dev/portfolio/src/images/flavicon.png'
+import flavicon from '../src/images/flavicon.png'
 
 
 //fade-in on scroll
