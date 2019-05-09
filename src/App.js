@@ -52,7 +52,7 @@ class App extends Component{
         return (
             <div className='all'>
                 {/* <div className='avatar'><Avatar>AKT</Avatar></div> */}
-                <Navbar img={flavicon} />
+                <Navbar/>
                 <TitleCard id="home"/>
                 <About id="about"/>
                 {this.state.hasScrolled ? <StyleRoot><i style={styles.fadeInUp} onClick={this.scrollToTop} class="fas fa-chevron-circle-up fa-3x"></i></StyleRoot> : null}
