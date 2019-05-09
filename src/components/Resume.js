@@ -16,8 +16,8 @@ class Resume extends Component{
         return (
             <div id={this.props.id} style={{marginTop: 200}}>
             <h2 className='subtitle'>Resume_</h2>
-            <div style={{display: 'flex', flexDirection:'column', justifyContent:'space-around', marginTop: 200, marginLeft: 200, marginRight: 200}}>
-            <a href={resume} download="Abhisresume"><button type='button' class="btn btn-primary btn-block">Download (pdf)</button></a>
+            <div class='d-flex justify-content-center' style={{flexDirection:'column', marginTop: 200}}>
+            <a href={resume} download="Abhisresume"><button type='button' class=" btn btn-primary btn-block w-50 justify-content-center">Download (pdf)</button></a>
             <h2 style={{textAlign:'center', marginTop: 30, marginBotton: 30}}>or</h2>
             <a href='https://docs.google.com/document/d/e/2PACX-1vSTm_lip1HWyg61ilcp930B8D7SbynE9i04mPF086q4Zy4gWWEsntxNhcIs-P0ZNxwEvY6lzHHxAA-1/pub'><button type='button' class="btn btn-link btn-block">Link to Google doc</button></a>
             </div>
