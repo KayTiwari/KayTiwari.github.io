@@ -62,7 +62,7 @@
     align-self: center;
     color: #333;
     opacity: .7;
-    font-size: 100px;
+    font-size: 85px;
     margin-top: 30;
     font-family: sans-serif;
 
@@ -79,7 +79,7 @@
     align-self: center;
     color: #333;
     opacity: .7;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 200;
     margin-top: 0px;
     font-family: sans-serif;
@@ -97,61 +97,6 @@
 
 
 /* Contact */
-/* .fa-spinner,.fa-mobile-alt{
-    align-self: center;
-    margin-left: 50%;
-}
-.fa-compass,.fa-square{
-    align-self: center;
-    margin-left: 170%;
-}
-.fa-envelope,.fa-circle{
-    align-self: center;
-    margin-left: 130%;
-}
-.fa-stack:hover {
-    cursor: pointer;
-}
-.contactinfophone {
-    font-family: sans-serif;
-    position: relative;
-    color: #333;
-    margin-left: 0;
-    margin-right: 0;
-    opacity: 1;
-    transition: height 500ms 0ms, opacity 500ms 500ms;
-}
-.contactinfophonenone {
-    font-family: sans-serif;
-    transition: 500ms 0ms;
-    opacity: 0;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-}
-.contactinfoemail {
-    font-family: sans-serif;
-    position: relative;
-    color: #333;
-}
-.contactinfoemailnone {
-    font-family: sans-serif;
-    position: relative;
-    color: transparent;
-}
-.contactinfolocation {
-    font-family: sans-serif;
-    position: relative;
-    color: #333;
-    align-self: center;
-}
-.contactinfolocationnone{
-    font-family: sans-serif;
-    position: relative;
-    color: transparent;
-    margin-left: 0;
-    margin-right: 0;
-} */
 .fa-mobile-alt:hover {
     color: maroon;
     position: relative;
@@ -167,4 +112,8 @@
 .carousel-inner img {
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
 }

@@ -7,9 +7,9 @@ import Radium, {StyleRoot} from 'radium';
 
 class Contact extends Component{
     state = {
-        phone: false,
-        email: false,
-        location: false
+        phone: true,
+        email: true,
+        location: true
     }
     showPhone = (e) => {
         if (this.state.phone === false){

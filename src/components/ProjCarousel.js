@@ -29,12 +29,12 @@ class ProjCarousel extends React.Component {
       const { index, direction } = this.state;
   
       return (
+        <div>
         <Carousel
           activeIndex={index}
           direction={direction}
           onSelect={this.handleSelect}
           fade={true}
-          nextIcon={<span aria-hidden="false" className="carousel-control-next-icon"/>}
         >
           <Carousel.Item>
             <a href='http://crypto-dash.surge.sh/'><img
@@ -91,6 +91,7 @@ class ProjCarousel extends React.Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        </div>
       );
     }
   }
