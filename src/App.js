@@ -8,7 +8,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import pika from '../src/images/pikapika.gif'
 import flavicon from '../src/images/flavicon.png'
 
-
 //fade-in on scroll
 class App extends Component{
     constructor(){
@@ -52,7 +51,7 @@ class App extends Component{
     render(){
         return (
             <div className='all'>
-                <div className='avatar'><Avatar>AKT</Avatar></div>
+                {/* <div className='avatar'><Avatar>AKT</Avatar></div> */}
                 <Navbar img={flavicon} />
                 <TitleCard id="home"/>
                 <About id="about"/>

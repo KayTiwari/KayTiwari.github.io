@@ -51,7 +51,7 @@ class Contact extends Component{
             <div id={this.props.id} style={{marginTop: 330}}>
             <h1 className='subtitle'>Contact me_</h1>
 
-            <div style={{display: 'flex', justifyContent:'space-around', marginTop: 100}}>
+            <div  className='contactContainer' style={{display: 'flex', justifyContent:'space-around', marginTop: 100}}>
 
             <div onClick={this.showPhone} style={{}}>
             <span className='fa-stack fa-2x'>
@@ -76,7 +76,7 @@ class Contact extends Component{
 
             </div>
 
-            <div style={{display: 'flex', justifyContent:'space-around', marginTop: 10, marginLeft:50}}>
+            <div  className='contactContainer' style={{display: 'flex', justifyContent:'space-around', marginTop: 10, marginLeft:50}}>
             <div>{this.state.phone ? <StyleRoot><h2 style={styles.rubberBand}>+12485797254</h2></StyleRoot> : <StyleRoot><h2 style={[styles.bounceOut, {color: 'transparent'}]} >+12485797254</h2></StyleRoot >}</div>
             <div style={{marginLeft:100}}>{this.state.location ? <StyleRoot><h2 style={{fontSize: 20, justifyContent:'center', textAlign:'center'}}>Currently in:</h2><h2 style={styles.flipInX} >Salt Lake City, UT</h2></StyleRoot> : <StyleRoot><h2 style={{fontSize: 20, textAlign:'center'}}>Currently in:</h2><h2 style={{color: 'transparent'}}>Salt Lake City, UT</h2></StyleRoot>}</div>
             <div style={{marginLeft:0}}>{this.state.email ? <StyleRoot><h2 style={styles.rollIn} >abhi.kay.tiwari@gmail.com</h2></StyleRoot> : <StyleRoot><h2 style={{color: 'transparent'}}>abhi.kay.tiwari@gmail.com</h2></StyleRoot>}</div>
