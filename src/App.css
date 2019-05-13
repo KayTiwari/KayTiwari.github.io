@@ -115,8 +115,13 @@
 }
 
 @media only screen and (max-width: 996px) {
-    .contactContainer {
-        display: flex;
-        flex-direction: column;
+    .contactContainer1 {
+        visibility: hidden;
+    }
+    .contactContainer2 {
+       
+    }
+    .carouselContainer {
+        width: 100%;
     }
 }

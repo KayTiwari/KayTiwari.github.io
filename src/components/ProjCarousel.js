@@ -6,6 +6,7 @@ import tarotreads from '../images/tarotreads.png';
 import wild5 from '../images/wild5.png';
 import '../App.css';
 
+let screenwidth = Dimensions.get('window').width;
 class ProjCarousel extends React.Component {
     constructor(props, context) {
       super(props, context);
@@ -29,7 +30,7 @@ class ProjCarousel extends React.Component {
       const { index, direction } = this.state;
   
       return (
-        <div>
+        <div className='carouselContainer' style={{width: screenwidth}}>
         <Carousel
           activeIndex={index}
           direction={direction}
