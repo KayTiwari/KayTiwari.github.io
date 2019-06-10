@@ -6,7 +6,7 @@ import tarotreads from '../images/tarotreads.png';
 import wild5 from '../images/wild5.png';
 import '../App.css';
 
-let screenwidth = Dimensions.get('window').width;
+console.log(window.innerWidth);
 class ProjCarousel extends React.Component {
     constructor(props, context) {
       super(props, context);
@@ -28,9 +28,10 @@ class ProjCarousel extends React.Component {
   
     render() {
       const { index, direction } = this.state;
-  
-      return (
-        <div className='carouselContainer' style={{width: screenwidth}}>
+      let screenwidth = window.innerWidth;
+     return ( 
+     <div>
+        {screenwidth > 850 ? <div className='carouselContainer' style={{width: window.innerWidth}}>
         <Carousel
           activeIndex={index}
           direction={direction}
@@ -92,8 +93,8 @@ class ProjCarousel extends React.Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        </div>
-      );
-    }
+        </div> : <h1>Sorry your current screen width does not support the carousel!</h1>}
+        </div> )
+  }
   }
 export default ProjCarousel;

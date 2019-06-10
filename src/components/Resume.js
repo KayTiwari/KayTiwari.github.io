@@ -15,7 +15,7 @@ class Resume extends Component{
     render(props){
         return (
             <div id={this.props.id} style={{marginTop: 200}}>
-            <h2 className='subtitle'>Resume_</h2>
+            <h2 className='subtitle'>Technologies & Resume</h2>
             <div class='container' style={{marginTop: 200}}>
             <div class='row'>
             <div class='col text-center'>

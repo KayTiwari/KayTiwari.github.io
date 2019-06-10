@@ -17,7 +17,7 @@ class Projects extends Component{
     render(props){
         return (
         <div id={this.props.id} style={{marginTop: 200}}>
-            <h1 className='subtitle'>Work_</h1>
+            <h1 className='subtitle'>Work</h1>
 
             <div style={{display: 'flex', justifyContent:'space-around', marginTop: 70, marginLeft: 200, marginRight: 200}}>
             <ProjCarousel />
