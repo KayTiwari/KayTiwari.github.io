@@ -116,4 +116,3 @@ const styles = {
   }
 
 export { Contact };
-const exports = screenLeft;
