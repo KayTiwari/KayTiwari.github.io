@@ -49,7 +49,7 @@ class Contact extends Component{
     render(props){
         return (
             <div id={this.props.id} style={{marginTop: 330}}>
-            <h1 className='subtitle'>Contact me_</h1>
+            <h1 className='subtitle'>Contact me</h1>
 
             <div  className='contactContainer1' style={{display: 'flex', justifyContent:'space-around', marginTop: 100}}>
 
