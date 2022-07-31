@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import facial from '../images/selfieday.png';
+import facial from '../images/photos.jpeg';
 
 
 const TitleCard = () => {
